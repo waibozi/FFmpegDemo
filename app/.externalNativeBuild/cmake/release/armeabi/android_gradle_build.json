@@ -1,0 +1,102 @@
+
+{
+	"buildFiles" : [ "C:/Users/liupei/FFmpegDemo/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"libavcodec-56-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libavcodec-56",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libavcodec-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavdevice-56-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libavdevice-56",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libavdevice-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavfilter-5-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libavfilter-5",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libavfilter-5.so",
+			"toolchain" : "181465261"
+		},
+		"libavformat-56-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libavformat-56",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libavformat-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavutil-54-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libavutil-54",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libavutil-54.so",
+			"toolchain" : "181465261"
+		},
+		"libpostproc-53-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libpostproc-53",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libpostproc-53.so",
+			"toolchain" : "181465261"
+		},
+		"libswresample-1-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libswresample-1",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libswresample-1.so",
+			"toolchain" : "181465261"
+		},
+		"libswscale-3-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "libswscale-3",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/armeabi/libswscale-3.so",
+			"toolchain" : "181465261"
+		},
+		"video-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "video",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target video",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain C:/SDK/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-15/arch-arm -Dvideo_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "C:/Users/liupei/FFmpegDemo/app/src/main/cpp/video.c",
+					"workingDirectory" : "C:/Users/liupei/FFmpegDemo/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "C:/Users/liupei/FFmpegDemo/app/build/intermediates/cmake/release/obj/armeabi/libvideo.so",
+			"toolchain" : "181465261"
+		}
+	},
+	"toolchains" : 
+	{
+		"181465261" : 
+		{
+			"cCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

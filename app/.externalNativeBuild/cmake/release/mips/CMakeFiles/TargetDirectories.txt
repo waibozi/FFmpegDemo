@@ -1,0 +1,3 @@
+C:/Users/liupei/FFmpegDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/video.dir
+C:/Users/liupei/FFmpegDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/edit_cache.dir
+C:/Users/liupei/FFmpegDemo/app/.externalNativeBuild/cmake/release/mips/CMakeFiles/rebuild_cache.dir

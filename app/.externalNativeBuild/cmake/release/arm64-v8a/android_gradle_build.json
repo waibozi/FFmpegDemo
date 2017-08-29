@@ -1,0 +1,102 @@
+
+{
+	"buildFiles" : [ "C:/Users/liupei/FFmpegDemo/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target clean"
+	],
+	"libraries" : 
+	{
+		"libavcodec-56-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libavcodec-56",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libavcodec-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavdevice-56-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libavdevice-56",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libavdevice-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavfilter-5-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libavfilter-5",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libavfilter-5.so",
+			"toolchain" : "181465261"
+		},
+		"libavformat-56-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libavformat-56",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libavformat-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavutil-54-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libavutil-54",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libavutil-54.so",
+			"toolchain" : "181465261"
+		},
+		"libpostproc-53-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libpostproc-53",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libpostproc-53.so",
+			"toolchain" : "181465261"
+		},
+		"libswresample-1-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libswresample-1",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libswresample-1.so",
+			"toolchain" : "181465261"
+		},
+		"libswscale-3-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "libswscale-3",
+			"buildType" : "release",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/arm64-v8a/libswscale-3.so",
+			"toolchain" : "181465261"
+		},
+		"video-Release-arm64-v8a" : 
+		{
+			"abi" : "arm64-v8a",
+			"artifactName" : "video",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\release\\arm64-v8a --target video",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target aarch64-none-linux-android -gcc-toolchain C:/SDK/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-21/arch-arm64 -Dvideo_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "C:/Users/liupei/FFmpegDemo/app/src/main/cpp/video.c",
+					"workingDirectory" : "C:/Users/liupei/FFmpegDemo/app/.externalNativeBuild/cmake/release/arm64-v8a"
+				}
+			],
+			"output" : "C:/Users/liupei/FFmpegDemo/app/build/intermediates/cmake/release/obj/arm64-v8a/libvideo.so",
+			"toolchain" : "181465261"
+		}
+	},
+	"toolchains" : 
+	{
+		"181465261" : 
+		{
+			"cCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

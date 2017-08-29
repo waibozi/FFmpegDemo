@@ -1,0 +1,102 @@
+
+{
+	"buildFiles" : [ "C:/Users/liupei/FFmpegDemo/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\debug\\mips --target clean"
+	],
+	"libraries" : 
+	{
+		"libavcodec-56-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libavcodec-56",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libavcodec-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavdevice-56-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libavdevice-56",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libavdevice-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavfilter-5-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libavfilter-5",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libavfilter-5.so",
+			"toolchain" : "181465261"
+		},
+		"libavformat-56-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libavformat-56",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libavformat-56.so",
+			"toolchain" : "181465261"
+		},
+		"libavutil-54-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libavutil-54",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libavutil-54.so",
+			"toolchain" : "181465261"
+		},
+		"libpostproc-53-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libpostproc-53",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libpostproc-53.so",
+			"toolchain" : "181465261"
+		},
+		"libswresample-1-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libswresample-1",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libswresample-1.so",
+			"toolchain" : "181465261"
+		},
+		"libswscale-3-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "libswscale-3",
+			"buildType" : "debug",
+			"output" : "C:/Users/liupei/FFmpegDemo/app/src/main/jniLibs/mips/libswscale-3.so",
+			"toolchain" : "181465261"
+		},
+		"video-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "video",
+			"buildCommand" : "C:\\SDK\\cmake\\3.6.3155560\\bin\\cmake.exe --build C:\\Users\\liupei\\FFmpegDemo\\app\\.externalNativeBuild\\cmake\\debug\\mips --target video",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain C:/SDK/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/SDK/ndk-bundle/platforms/android-15/arch-mips -Dvideo_EXPORTS  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "C:/Users/liupei/FFmpegDemo/app/src/main/cpp/video.c",
+					"workingDirectory" : "C:/Users/liupei/FFmpegDemo/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "C:/Users/liupei/FFmpegDemo/app/build/intermediates/cmake/debug/obj/mips/libvideo.so",
+			"toolchain" : "181465261"
+		}
+	},
+	"toolchains" : 
+	{
+		"181465261" : 
+		{
+			"cCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/SDK/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
