@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.4.1)
 
 #INCLUDE_DIRECTORIES(src/main/cpp/include)
+#INCLUDE_DIRECTORIES(src/main/cpp/libyuv)
 
-add_library( video
+add_library( playvideo
              SHARED
-             src/main/cpp/video.c )
+             src/main/cpp/dn_video_player.c )
 
 add_library( libavutil-54
              SHARED
@@ -62,10 +63,18 @@ set_target_properties( libavdevice-56
                        PROPERTIES IMPORTED_LOCATION
                        ${CMAKE_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}/libavdevice-56.so)
 
+add_library( libyuv
+             SHARED
+             IMPORTED)
+set_target_properties( libyuv
+                       PROPERTIES IMPORTED_LOCATION
+                       ${CMAKE_SOURCE_DIR}/src/main/jniLibs/${ANDROID_ABI}/libyuv.so)
+
 find_library( log-lib
                 log )
 
-target_link_libraries(  video
+target_link_libraries(  playvideo
+                android
                         libavutil-54
                         libswresample-1
                         libavcodec-56
@@ -74,4 +83,5 @@ target_link_libraries(  video
                         libpostproc-53
                         libavfilter-5
                         libavdevice-56
+                        libyuv
                         ${log-lib} )

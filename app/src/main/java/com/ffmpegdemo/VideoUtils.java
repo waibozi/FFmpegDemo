@@ -1,5 +1,7 @@
 package com.ffmpegdemo;
 
+import android.view.Surface;
+
 /**
  * Created by liupei on 2017/8/29.
  */
@@ -15,8 +17,10 @@ public class VideoUtils {
         System.loadLibrary("postproc-53");
         System.loadLibrary("avfilter-5");
         System.loadLibrary("avdevice-56");
-        System.loadLibrary("video");
+        System.loadLibrary("playvideo");
     }
 
     public native static void Decode(String input, String output);
+
+    public native static void render(String inputPath, Surface surface);
 }

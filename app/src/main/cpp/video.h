@@ -15,6 +15,9 @@ extern "C" {
 JNIEXPORT void JNICALL Java_com_ffmpegdemo_VideoUtils_Decode
   (JNIEnv *, jclass, jstring, jstring);
 
+JNIEXPORT void JNICALL Java_com_ffmpegdemo_VideoUtils_render
+        (JNIEnv *, jobject , jstring, jobject);
+
 #ifdef __cplusplus
 }
 #endif
